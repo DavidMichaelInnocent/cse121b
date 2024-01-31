@@ -9,13 +9,15 @@ myProfile.name = "David Michael Innocent";
 
 myProfile.photo = "images/profile.png";
 
-myProfile.favoriteFoods = ["Bread", "Yam", "Milk", "Plantain", "Beans","Water Mello"];
+myProfile.favoriteFoods = ["Bread", "Yam", "Milk", "Plantain", "Beans","Water Mello", "Garri Eba", "Semoviter", "Rice"];
 
-myProfile.hobbies = ["Chatting", "Fathball", "Playing Game"]
+myProfile.hobbies = ["Chatting", "Fathball", "Playing Game", "Music Listen", "Technology"]
 
 myProfile.placelived = [];
-myProfile.placelived.push[{place: "Nigerian, Ibadan", length: "5years"}];
-myProfile.placelived.push[{place: "Ghana, Accra", length: "2years"}];
+
+myProfile.placelived.push({place: "Nigerian, Ibadan", length: "5years"});
+myProfile.placelived.push({place: "Ghana, Accra", length: "2years"});
+ myProfile.placelived.push({place: "Nigerian, Ebonyi", length: "10years"})
 
 
 /* DOM Manipulation - Output */
@@ -44,8 +46,7 @@ myProfile.hobbies.forEach(function(hobby){
 });
 
 /* Places Lived DataList */
-myProfile.placelived.forEach(function(place)
-{
+myProfile.placelived.forEach(function(place){
     let dt = document.createElement("dt");
     dt.textContent = place.place;
     let dd = document.createElement("dd");
