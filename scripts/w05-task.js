@@ -43,31 +43,27 @@ const reset = () => {
 
 
 /* filterTemples Function */
-const filterTemples = (temples) => {
+let sortBy = function (temples)  {
+
     reset();
 
-    let filter = document.getElementById("filter").value;
+    let filter = document.getElementById("filtered").value;
     switch (filter) {
         case "utah":
 
-        displayTemples(temples.filter((temple) => temple.location("utah")));
+        displayTemples(temples.filter((temple) => temple.location.includes("utah")));
         break;
-        case "nonutah":
-            displayTemples(
-                temples.filter((temple) => 
-                ! temple.location.includes("utah"))
-            );
+
+        case "notutah":
+            displayTemples(temples.filter((temple) => temple.location.includes("notutah")));
 
         break;
+
         case "older":
-        displayTemples(
-            temples.filter(
-                (temple) => new
-                Date(temple.dedicated) < new Date(1950, 0, 1)
-            )
-        );
+        displayTemples(temples.filter(temple => temple.dedicated < new Date(1950, 0, 1)));
 
         break;
+
         case "all":
             displayTemples(temples);
         break; 
