@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Application</h1>
+    <form id="quiz-form">
+      <h2 id="question"></h2>
+      <div id="options">
+        <input type="radio" id="option1" name="option" value="A">
+        <label for="option1" id="option1-label"></label>
+        <br>
+        <input type="radio" id="option2" name="option" value="B">
+        <label for="option2" id="option2-label"></label>
+        <br>
+        <input type="radio" id="option3" name="option" value="C">
+        <label for="option3" id="option3-label"></label>
+        <br>
+        <input type="radio" id="option4" name="option" value="D">
+        <label for="option4" id="option4-label"></label>
+        <br>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
