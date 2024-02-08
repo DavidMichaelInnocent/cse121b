@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Application</title>
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 121b | W06: Programming Tasks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Quiz Application</h1>
-    <form id="quiz-form">
-      <h2 id="question"></h2>
-      <div id="options">
-        <input type="radio" id="option1" name="option" value="A">
-        <label for="option1" id="option1-label"></label>
-        <br>
-        <input type="radio" id="option2" name="option" value="B">
-        <label for="option2" id="option2-label"></label>
-        <br>
-        <input type="radio" id="option3" name="option" value="C">
-        <label for="option3" id="option3-label"></label>
-        <br>
-        <input type="radio" id="option4" name="option" value="D">
-        <label for="option4" id="option4-label"></label>
-        <br>
-      </div>
-      <button type="submit" id="submit">Submit</button>
-    </form>
-    <div id="result"></div>
-  </div>
-  <script src="script.js"></script>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html" class="active">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html">Project</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <h1>Quiz Application</h1>
+      <form id="quiz-form">
+        <h2 id="question"></h2>
+        <div id="options">
+          <input type="radio" id="option1" name="option" value="A">
+          <label for="option1" id="option1-label"></label>
+          <br>
+          <input type="radio" id="option2" name="option" value="B">
+          <label for="option2" id="option2-label"></label>
+          <br>
+          <input type="radio" id="option3" name="option" value="C">
+          <label for="option3" id="option3-label"></label>
+          <br>
+          <input type="radio" id="option4" name="option" value="D">
+          <label for="option4" id="option4-label"></label>
+          <br>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </main>
+  <footer>
+    &copy;<span id="year"></span> | Week 06 Finall Project - Biography | CSE 121b
+  </footer>
+  </script>
+  <script src="scripts/w06-task.js"></script>
 </body>
 </html>

@@ -313,3 +313,80 @@ footer {
     }
 
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  #options {
+    margin: 10px 0;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  label:hover {
+    background-color: #eee;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #ddd;
+    border-color: #bbb;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #result {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: none;
+  }
