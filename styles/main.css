@@ -390,3 +390,108 @@ footer {
     text-align: center;
     display: none;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+  }
+  
+  .quiz {
+    border: 2px solid darkblue;
+    padding: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .options input {
+    display: none;
+  }
+  
+  .options label {
+    width: 48%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .options label:hover {
+    background-color: lightgray;
+  }
+  
+  .options input:checked + label {
+    background-color: lightgreen;
+    border-color: green;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #submit {
+    background-color: green;
+  }
+  
+  #next {
+    background-color: blue;
+  }
+  
+  #restart {
+    background-color: red;
+  }
+  
+  .controls button:hover {
+    opacity: 0.8;
+  }
+  
+  .result {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .result p {
+    font-size: 18px;
+    text-align: center;
+  }

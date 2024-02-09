@@ -1,0 +1,29 @@
+{
+    "quiz": [
+      {
+        "question": "What is the output of console.log(typeof null)?",
+        "choices": ["object", "null", "undefined", "string"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the difference between == and === in JavaScript?",
+        "choices": ["== compares values, === compares values and types", "== compares types, === compares values", "There is no difference", "== is deprecated, === is recommended"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the correct way to declare a variable in JavaScript?",
+        "choices": ["var x = 10;", "int x = 10;", "x = 10;", "declare x = 10;"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the correct syntax for a function declaration in JavaScript?",
+        "choices": ["function myFunction() {}", "function myFunction;", "function = myFunction() {}", "myFunction function() {}"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the correct way to access the first element of an array in JavaScript?",
+        "choices": ["array[0]", "array[1]", "array.first()", "array(0)"],
+        "correctAnswer": 0
+      }
+    ]
+  }

@@ -1,54 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSE 121b | W06: Programming Tasks</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
+<html>
+<head>
+  <title>JavaScript Quiz App</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+
   <nav>
     <ul id="menu">
       <li><a id="toggleMenu">&equiv;</a></li>
       <li><a href="index.html">Home</a></li>
       <li><a href="w01-task.html">W1 Task</a></li>
       <li><a href="w03-task.html">W3 Task</a></li>
-      <li><a href="w04-task.html" class="active">W4 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
       <li><a href="w05-task.html">W5 Task</a></li>
-      <li><a href="project.html">Project</a></li>
+      <li><a href="project.html" class="active">Project</a></li>
     </ul>
   </nav>
-  <main>
-    <div class="container">
-      <h1>Quiz Application</h1>
-      <form id="quiz-form">
-        <h2 id="question"></h2>
-        <div id="options">
-          <input type="radio" id="option1" name="option" value="A">
-          <label for="option1" id="option1-label"></label>
-          <br>
-          <input type="radio" id="option2" name="option" value="B">
-          <label for="option2" id="option2-label"></label>
-          <br>
-          <input type="radio" id="option3" name="option" value="C">
-          <label for="option3" id="option3-label"></label>
-          <br>
-          <input type="radio" id="option4" name="option" value="D">
-          <label for="option4" id="option4-label"></label>
-          <br>
-        </div>
-        <button type="submit" id="submit">Submit</button>
-      </form>
-      <div id="result"></div>
+  <main id="project">
+  <div class="container">
+    <h1>JavaScript Quiz App</h1>
+    <div class="quiz">
+      <div class="question">
+        <p id="question-text"></p>
+      </div>
+      <div class="options">
+        <input type="radio" id="option-a" name="option" value="0">
+        <label for="option-a" id="option-a-label"></label>
+        <input type="radio" id="option-b" name="option" value="1">
+        <label for="option-b" id="option-b-label"></label>
+        <input type="radio" id="option-c" name="option" value="2">
+        <label for="option-c" id="option-c-label"></label>
+        <input type="radio" id="option-d" name="option" value="3">
+        <label for="option-d" id="option-d-label"></label>
+      </div>
+      <div class="controls">
+        <button id="submit">Submit</button>
+        <button id="next">Next</button>
+        <button id="restart">Restart</button>
+      </div>
+      <div class="result">
+        <p id="result-text"></p>
+      </div>
     </div>
+  </div>
   </main>
   <footer>
-    &copy;<span id="year"></span> | Week 06 Finall Project - Biography | CSE 121b
+    &copy;<span id="year"></span> | Week 06 Final Project | CSE 121b
   </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
   <script src="scripts/w06-task.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
