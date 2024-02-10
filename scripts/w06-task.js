@@ -1,3 +1,23 @@
+// Declare a virable to hold the picture
+let picture = "images/profile.png";
+   // Get the HTML element
+document.querySelector("img").setAttribute("src",picture);
+// Declare variable to hold information name about the author
+let myname = "David Michael Innocent";
+// Get the HTML element
+document.querySelector("#name").textContent = myname
+// Delare a variable that that hold the information about the quiz.
+let information = ["To take this quiz please read carefully! Once answer the first question, click Submit before procced to the next question without submitted"];
+// Modify the HTML element with the id of infor to display your information array
+let infor = document.getElementById("info"); 
+
+// Declare and instantiate a variable to hold another single infomation the quiz
+let newiformation = ["You won't get to next question. remember once you answer qustions, submit before attempt to the Next. once click Restart it will authomatically clear the data, and return you to main manuel."];
+// Add the value stored in this new variable to your quiz information array
+// This will add the new quiz information to the end of the array
+information.push(newiformation);
+// This will show the array as a comma-separated string
+infor.innerHTML = information
 // Use the fetch API to get the quiz data from the JSON file in the computer folder
 // Assume the file name is quiz.json and it is in the same folder as the HTML file
 fetch("quiz.json")
@@ -83,7 +103,6 @@ fetch("quiz.json")
     function nextQuestion() {
       // Increment the current question index
       currentQuestion++;
-
       // Check if there are more questions left
       if (currentQuestion < quizData.quiz.length) {
         // If yes, display the next question
@@ -91,7 +110,7 @@ fetch("quiz.json")
       } else {
         // If no, show the final score and a message
         questionText.textContent = "You have completed the quiz.";
-        resultText.textContent = "Your final score is " + score + " out of " + quizData.quiz.length + ".";
+        resultText.textContent = "Your final score is " + score + " out of " +  quizData.quiz.length + ".";
         // Hide the options and the controls
         document.querySelector(".options").style.display = "none";
         document.querySelector(".controls").style.display = "none";

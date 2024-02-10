@@ -1,0 +1,34 @@
+{
+    "questions": [
+      {
+        "question": "What is the capital of Nigeria?",
+        "options": ["Abuja", "Lagos", "Port Harcourt", "Kano"],
+        "answer": 0,
+        "dom": {
+          "method": "getElementById",
+          "id": "question1",
+          "action": "innerHTML"
+        }
+      },
+      {
+        "question": "What is the name of the largest river in Africa?",
+        "options": ["Nile", "Congo", "Niger", "Zambezi"],
+        "answer": 0,
+        "dom": {
+          "method": "getElementById",
+          "id": "question2",
+          "action": "innerHTML"
+        }
+      },
+      {
+        "question": "What is the most populous country in Africa?",
+        "options": ["Nigeria", "Ethiopia", "Egypt", "South Africa"],
+        "answer": 0,
+        "dom": {
+          "method": "getElementById",
+          "id": "question3",
+          "action": "innerHTML"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <h1>Quiz App</h1>
+  <div id="container">
+    <div id="question1"></div>
+    <div id="options1"></div>
+    <div id="question2"></div>
+    <div id="options2"></div>
+    <div id="question3"></div>
+    <div id="options3"></div>
+    <button id="submit">Submit</button>
+    <div id="result"></div>
+  </div>
+  <footer>
+    &copy;<span id="year"></span> | Week 06 Final Project | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/w6.js"></script>
+</body>
+</html>
