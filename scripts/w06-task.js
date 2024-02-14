@@ -191,7 +191,7 @@ fetch('african.json')
     let button = document.createElement('button');
     button.className = 'card-button';
     button.textContent = 'Learn More';
-    
+
 
     // Add an event listener to the button that will switch to a different country based on the name property
     button.addEventListener('click', () => {

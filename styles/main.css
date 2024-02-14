@@ -547,10 +547,14 @@ footer {
   }
 
   .qu{
-    background-color: #111;
+    background-color: skyblue;
+    color: blue;
   }
   .th{
     color: yellowgreen;
+  }
+  .ja{
+    color: #ccc;
   }
   
   .pc{
@@ -632,4 +636,9 @@ footer {
 
   .card-button:hover {
   background-color: #0069d9;
+  }
+  .tw{
+   
+    color: #eee;
+    background-color: chocolate;
   }
