@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Benin",
+      "capital": "Porto-Novo",
+      "population": 12132000,
+      "currency": "CFA franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/125px-Flag_of_Benin.svg.png"
+    },
+    {
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "population": 20903000,
+      "currency": "CFA franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Burkina_Faso.svg/250px-Coat_of_arms_of_Burkina_Faso.svg.png"
+    },
+    {
+      "name": "Cape Verde",
+      "capital": "Praia",
+      "population": 550000,
+      "currency": "Escudo",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coat_of_arms_of_Cape_Verde.svg/250px-Coat_of_arms_of_Cape_Verde.svg.png"
+    },
+    {
+      "name": "Gambia",
+      "capital": "Banjul",
+      "population": 2416000,
+      "currency": "Dalasi",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_arms_of_The_Gambia.svg/250px-Coat_of_arms_of_The_Gambia.svg.png"
+    },
+    {
+      "name": "Ghana",
+      "capital": "Accra",
+      "population": 31073000,
+      "currency": "Cedi",
+      "imageurl": "https://cdn.vectorstock.com/i/preview-1x/10/89/ghana-round-circle-flag-vector-38611089.webp"
+    },
+    {
+      "name": "Guinea",
+      "capital": "Conakry",
+      "population": 13132000,
+      "currency": "Guinean franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/125px-Flag_of_Guinea.svg.png"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "capital": "Bissau",
+      "population": 1968000,
+      "currency": "CFA franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Coat_of_arms_of_Guinea-Bissau_%28variant%29.svg/250px-Coat_of_arms_of_Guinea-Bissau_%28variant%29.svg.png"
+    },
+    {
+      "name": "Ivory Coast",
+      "capital": "Yamoussoukro",
+      "population": 26378000,
+      "currency": "CFA franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/FIF_C%C3%B4te_d%27Ivoire_logo.png/200px-FIF_C%C3%B4te_d%27Ivoire_logo.png"
+    },
+    {
+      "name": "Liberia",
+      "capital": "Monrovia",
+      "population": 5058000,
+      "currency": "Liberian dollar",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coat_of_arms_of_Liberia.svg/250px-Coat_of_arms_of_Liberia.svg.png"
+    },
+    {
+      "name": "Mali",
+      "capital": "Bamako",
+      "population": 20251000,
+      "currency": "CFA franc",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMvRdyQxioL_WfnfYjwN0r6lPP54kxBrNx1xfsoZNCKg&s"
+    },
+    {
+      "name": "Mauritania",
+      "capital": "Nouakchott",
+      "population": 4649000,
+      "currency": "Ouguiya",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/National_Seal_of_Mauritania.svg/250px-National_Seal_of_Mauritania.svg.png"
+    },
+    {
+      "name": "Niger",
+      "capital": "Niamey",
+      "population": 24207000,
+      "currency": "CFA franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/250px-Coat_of_arms_of_Niger.svg.png"
+    },
+    {
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "population": 214028000,
+      "currency": "Naira",
+      "imageurl": "http://www.nigerianembassy.co.il/wp-content/uploads/2019/04/flag-500x302.jpg"
+    },
+    {
+      "name": "Senegal",
+      "capital": "Dakar",
+      "population": 16744000,
+      "currency": "CFA franc",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Senegalese_Football_Federation_logo.svg/185px-Senegalese_Football_Federation_logo.svg.png"
+    },
+    {
+      "name": "Sierra Leone",
+      "capital": "Freetown",
+      "population": 7900000,
+      "currency": "Leone",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Coat_of_arms_of_Sierra_Leone.svg/300px-Coat_of_arms_of_Sierra_Leone.svg.png"
+    },
+    {
+      "name": "Togo",
+      "capital": "Lome",
+      "population": 8279000,
+      "currency": "CFA franc",
+      "imageurl": "https://cdn.freebiesupply.com/logos/large/2x/togo-logo-png-transparent.png"
+    }
+  ]

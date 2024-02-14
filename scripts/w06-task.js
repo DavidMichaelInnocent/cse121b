@@ -146,3 +146,118 @@ fetch("quiz.json")
     // Show an error message to the user
     document.getElementById("question-text").textContent = "Sorry, something went wrong. Please check your JSON file or try again later.";
   });
+
+// Use fetch to get the data from the JSON file
+fetch('african.json')
+  .then(response => response.json())
+  .then(data => {
+    // Loop through the data array and create a card for each country
+    data.forEach(country => {
+    // Create a div element with the class card
+    let card = document.createElement('div');
+    card.className = 'card';
+    // Create an img element with the class card-image and the src attribute from the imageurl property
+    let image = document.createElement('img');
+    image.className = 'card-image';
+    image.src = country.imageurl;
+
+    // Create a div element with the class card-content
+    let content = document.createElement('div');
+    content.className = 'card-content';
+
+    // Create a h3 element with the class card-title and the text content from the name property
+    let title = document.createElement('h3');
+    title.className = 'card-title';
+    title.textContent = country.name;
+
+    // Create a div element with the class card-info
+    let info = document.createElement('div');
+    info.className = 'card-info';
+
+    // Create a span element for each of the following properties: capital, population, currency
+    let capital = document.createElement('span');
+    capital.textContent = `Capital: ${country.capital}`;
+
+    let population = document.createElement('span');
+    population.textContent = `Population: ${country.population}`;
+
+    let currency = document.createElement('span');
+    currency.textContent = `Currency: ${country.currency}`;
+
+    // Append the span elements to the card-info element
+    info.append(capital, population, currency);
+
+    // Create a button element with the class card-button and the text content 'Learn More'
+    let button = document.createElement('button');
+    button.className = 'card-button';
+    button.textContent = 'Learn More';
+    
+
+    // Add an event listener to the button that will switch to a different country based on the name property
+    button.addEventListener('click', () => {
+      switch (country.name) {
+        case 'Benin':
+              // Do something for Benin
+          break;
+        case 'Burkina Faso':
+              // Do something for Burkina Faso
+          break;
+        case 'Cape Verde':
+              // Do something for Cape Verde
+          break;
+        case 'Gambia':
+              // Do something for Gambia
+          break;
+        case 'Ghana':
+                // Do something for Ghana
+          break;
+        case 'Guinea':
+                 // Do something for Guinea
+          break;
+        case 'Guinea-Bissau':
+               // Do something for Guinea-Bissau
+          break;
+        case 'Ivory Coast':
+                // Do something for Ivory Coast
+          break;
+        case 'Liberia':
+              // Do something for Liberia
+          break;
+        case 'Mali':
+              // Do something for Mali
+          break;
+        case 'Mauritania':
+                 // Do something for Mauritania
+          break;
+      case 'Niger':
+            // Do something for Niger
+          break;
+      case 'Nigeria':
+           // Do something for Nigeria
+          break;
+            // Do something for Senegal
+      case "Senegal":
+          break;
+            // DO something for Togo
+      case "Togo":
+          break;
+        default:
+            // Do something for unknown country
+          break;
+      }
+     });
+
+     // Append the title, info, and button elements to the card-content element
+      content.append(title, info, button);
+
+    // Append the image and content elements to the card element
+    card.append(image, content);
+
+    // Append the card element to the container element
+    document.getElementById('countries').append(card);
+    });
+  })
+  .catch(error => {
+    // Handle any errors
+    console.error(error);
+});
