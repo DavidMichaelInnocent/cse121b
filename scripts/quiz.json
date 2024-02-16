@@ -3,7 +3,7 @@
       {
         "question": "What is the output of console.log(typeof null)?",
         "choices": ["object", "null", "undefined", "string"],
-        "correctAnswer": 0
+        "correctAnswer": null
       },
       {
         "question": "What is the difference between == and === in JavaScript?",

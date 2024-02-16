@@ -1,3 +1,21 @@
+
+  // JavaScript code to get the user input and display the welcome message
+  function greetUser() {
+    // Get the name from the input element
+    let name = document.getElementById("name").value;
+    // Check if the name is not empty
+    if (name.trim() != "") {
+    // Hide the input and button elements
+    document.getElementById("name").style.display = "none";
+    document.getElementById("submi").style.display = "none";
+    // Show the message element with the greeting
+    document.getElementById("message").style.display = "block";
+    document.getElementById("message").innerHTML = `Hello, ${name}! Welcome to my page. Nice to have you here!`;
+    } else {
+    // Alert the user to enter a valid name
+    alert("Please enter a valid name!");
+    }
+   }
 // Declare a virable to hold the picture
 let picture = "images/profile.png";
    // Get the HTML element
@@ -5,9 +23,9 @@ document.querySelector("img").setAttribute("src",picture);
 // Declare variable to hold information name about the author
 let myname = "David Michael Innocent";
 // Get the HTML element
-document.querySelector("#name").textContent = myname
+document.querySelector("#nam").textContent = myname
 // Delare a variable that that hold the information about the quiz.
-let information = ["To take this quiz please read carefully! Once answer the first question, click Submit before procced to the next question without submitted"];
+let information = ["Once answer the first question, click Submit before procced to the next question without submitted"];
 // Modify the HTML element with the id of infor to display your information array
 let infor = document.getElementById("info"); 
 
@@ -260,4 +278,15 @@ fetch('african.json')
   .catch(error => {
     // Handle any errors
     console.error(error);
-});
+ });
+
+    // Create an array of numbers 1 to 20
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 20, 13, 14, 15, 16, 17, 18, 19, 20];
+    // Use the .map() method to create a new array with the square of each number
+    let squares = numbers.map(function(x) {
+      return x * x;
+    });
+    // Display the original and modified arrays on the web page
+    document.getElementById("original").innerHTML = "Original array: " + numbers;
+    document.getElementById("modified").innerHTML = "Modified array: " + squares;
+    
