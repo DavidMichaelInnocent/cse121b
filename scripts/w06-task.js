@@ -287,6 +287,6 @@ fetch('african.json')
       return x * x;
     });
     // Display the original and modified arrays on the web page
-    document.getElementById("original").innerHTML = "Original array: " + numbers;
-    document.getElementById("modified").innerHTML = "Modified array: " + squares;
+    document.getElementById("original").innerHTML = "Original array numbers: " + numbers;
+    document.getElementById("modified").innerHTML = "Modified array numbers: " + squares;
     
