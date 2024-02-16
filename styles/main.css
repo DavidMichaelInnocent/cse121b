@@ -697,7 +697,9 @@ footer {
   }
   .pp {
     font-size: 20px;
-    color: black;
+    color: yellowgreen;
+    background-color: #999;
+    
   }
   .arr{
     background-color: skyblue;
