@@ -10,7 +10,7 @@
     document.getElementById("submi").style.display = "none";
     // Show the message element with the greeting
     document.getElementById("message").style.display = "block";
-    document.getElementById("message").innerHTML = `Hello, ${name}! Welcome to my page. Nice to have you here!`;
+    document.getElementById("message").innerHTML = `Hello, ${name}! Welcome. Nice to have you here!`;
     } else {
     // Alert the user to enter a valid name
     alert("Please enter a valid name!");
