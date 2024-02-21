@@ -645,7 +645,7 @@ footer {
   #too {
     text-align: center;
     color: white;
-    background-color: dodgerblue;
+    background-color: red;
   }
   #form {
     display: flex;
